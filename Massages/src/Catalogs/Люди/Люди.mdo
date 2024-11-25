@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34e6cc77-3c13-4538-a716-1704be160966">
+  <producedTypes>
+    <objectType typeId="d670a009-c7f5-44a8-a7d7-c62ce7bdc2ca" valueTypeId="236a12e9-2d9b-468f-94d9-c4303ae3275c"/>
+    <refType typeId="19bb6064-acc9-4d47-b485-67029c0293c9" valueTypeId="bea2a384-7ac3-4dd7-8cfe-7e401acc30d8"/>
+    <selectionType typeId="6a26a633-f93d-40d2-92b9-b4bcd7769cae" valueTypeId="1beda650-3548-4800-8a3d-4f8c06877370"/>
+    <listType typeId="644affbe-a9d3-4c15-b54c-d869ddf7c524" valueTypeId="50cb753c-351e-47bc-bb2f-f6b272767923"/>
+    <managerType typeId="73d498a1-9cd3-480f-9eb8-35b1deac5b50" valueTypeId="40b88c48-198c-45ef-82e3-7752bfa3e3d0"/>
+  </producedTypes>
+  <name>Люди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Люди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Люди.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Человек</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined/>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <commands uuid="ef42406e-757f-43b0-86c8-8a56663b0f54">
+    <name>Расчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Люди</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

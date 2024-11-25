@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0baafa5-216c-4c9a-ae80-530fc20ffc51">
+  <name>Massages</name>
+  <synonym>
+    <key>ru</key>
+    <value>Massages</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f394425a-275c-452e-8512-af87a8b3d42b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c2d54c29-6dc1-4fc9-b62c-a39a6d448d2a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="33d9b962-052c-44b9-b3d7-556258d0112f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="86543e92-69d4-4084-811e-975ad458e13b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0f0d3843-ecbc-4ec3-90f8-84c6b21293d5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b0e4295b-64a0-408f-86a2-2dbbd7811574"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8fbd7397-456b-4fd5-9088-4ad6fade15d2"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="6a32e043-9abf-4caf-9e42-4c73fdd84082">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Люди</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.Оплата</documents>
+  <reports>Report.РасчетыПоКлиенту</reports>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+</mdclass:Configuration>
